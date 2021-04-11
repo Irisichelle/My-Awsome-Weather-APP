@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+  <title>Weather App</title>
+
+
+  </body>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <form id="search-form">
+          <input type="search" id="search-bar" placeholder="Enter City here" />
+          <input type="submit" value="search" />
+          <button id="current">Current</button>
+        </form>
+        <h1>
+          <span id="city">Haarlem</span>
+          <span id="current-temperature">17</span>°C
+          <!-- <a href="#" id="Celcius">°C</a> | <a href="#" id="Fahrenheit">°F</a> -->
+        </h1>
+        <h2 id="time"></h2>
+        <img
+          src="https://previews.123rf.com/images/nadinpanina/nadinpanina1903/nadinpanina190300103/119416128-pink-tulips-and-mimosa-flowers-on-pink-watercolor-background-spring-greetings-text-welcome-spring-fl.jpg"
+          alt="" />
+        <h3>5 Day Forcast 😎</h3>
+      </div>
+      <div class="col-4">
+        <p class="background-image">
+          <i class="fas fa-cloud-moon"> </i>
+        </p>
+        <p class="quote">
+          Happy Spring !
+        </p>
+      </div>
+    </div>
+    <h3 <div class="row forcast">
+      <div class="col-4">
+        <div class="weather-icon">
+          <i class="fas fa-sun"></i>
+        </div>
+        <p class="day">Monday</p>
+        <p class="emperature-forcast">
+          9°C /
+          <span class="lowest-temperature"> 2°C </span>
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="weather-icon">
+          <i class="fas fa-cloud-showers-heavy"></i>
+        </div>
+        <p class="day">Tuesday</p>
+        <p class="temperature-forcast">
+          9°C /
+          <span class="lowest-temperature"> 2°C </span>
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="weather-icon">
+          <i class="far fa-snowflake"></i>
+        </div>
+        <p class="day">Wednesday</p>
+        <p class="temperature-forcast">
+          9°C /
+          <span class="lowest-temperature"> 2°C </span>
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="weather-icon">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        </br>
+        <p class="day">Thursday</p>
+        <p class="temperature-forcast">
+          9°C /
+          <span class="lowest-temperature"> 2°C </span>
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="weather-icon">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <p class="day">Friday</p>
+        <p class="temperature-forcast">
+          9°C /
+          <span class="lowest-temperature"> 2°C </span>
+        </p>
+      </div>
+  </div>
+  </div>
+  </h3>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
